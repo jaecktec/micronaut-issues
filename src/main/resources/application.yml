@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: coroutinesSlf4j
+  http:
+    services:
+      dummy-client:
+        url: "https://jsonplaceholder.typicode.com"
