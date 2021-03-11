@@ -1,7 +1,0 @@
-micronaut:
-  server:
-    port: -1
-  http:
-    services:
-      dummy-client:
-        url: "http://localhost:5556"
