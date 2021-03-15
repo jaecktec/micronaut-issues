@@ -57,6 +57,6 @@ class SampleDeclarativeClientTest {
             .willReturn(notFound()))
 
         val actual = subject.getPossibleNull()
-        Assertions.assertNull(actual) { "response must not null" }
+        Assertions.assertNull(actual) { "response must be null" }
     }
 }
